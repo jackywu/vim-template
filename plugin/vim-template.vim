@@ -8,7 +8,7 @@ augroup vim_template
     autocmd!
     autocmd BufNewFile *.c silent exec    '0r ' . s:template_root . 'c.tmpl'
     autocmd BufNewFile *.cpp silent exec  '0r ' . s:template_root . 'cpp.tmpl'
-    autocmd BufNewFile *.go silent exec   '0r ' . s:template_root . 'go.tmpl'
+    "autocmd BufNewFile *.go silent exec   '0r ' . s:template_root . 'go.tmpl'
     autocmd BufNewFile *.java silent exec '0r ' . s:template_root . 'java.tmpl'
     autocmd BufNewFile *.lua silent exec  '0r ' . s:template_root . 'lua.tmpl'
     autocmd BufNewFile *.md silent exec   '0r ' . s:template_root . 'markdown.tmpl'
